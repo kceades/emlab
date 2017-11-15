@@ -13,6 +13,8 @@ def calculate(I,V,r,delta_r=None):
 	return:
 	the e/m ratio if delta_r is none
 	[em ratio, delta em ratio] if delta_r is not None
+
+	Note: divide by 1e11 after the calculation if you want to see single digits
 	"""
 	N = 130
 	R = 0.15
